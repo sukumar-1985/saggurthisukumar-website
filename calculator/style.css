@@ -32,35 +32,6 @@ body {
   background: transparent;
   color: #ffffff;
 }
-@media (max-width: 350px) {
-  .calculator {
-    width: 100%;
-  }
-
-  .calculator input {
-    width: 98%;
-  }
-
-  button {
-    width: 50px;
-    height: 50px;
-  }
-}
-
-@media (max-width: 313px) {
-  .calculator {
-    width: 100%;
-  }
-
-  .calculator input {
-    width: 98%;
-  }
-
-  button {
-    width: 48px;
-    height: 48px;
-  }
-}
 
 .calculator input::placeholder {
   color: #ffffff;
@@ -87,4 +58,34 @@ button {
 
 .operator {
   color: #3ab5b0;
+}
+
+@media (max-width: 350px) {
+  .calculator {
+    width: 100%;
+  }
+
+  .calculator input {
+    width: 98%;
+  }
+
+  button {
+    width: 52px;
+    height: 52px;
+  }
+}
+
+@media (max-width: 315px) {
+  .calculator {
+    width: 100%;
+  }
+
+  .calculator input {
+    width: 98%;
+  }
+
+  button {
+    width: 48px;
+    height: 48px;
+  }
 }
