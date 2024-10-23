@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sukumar - Frontend Developer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Saggurthi Sukumar</div>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Saggurthi Sukumar</h1>
+        <p>Frontend Developer</p>
+        <a href="#contact" class="cta-button">Get In Touch</a>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <img src="./images/my_image.jpeg" alt="Sukumar" class="about-image" />
+        <div>
+          <p>
+            Hi! I'm Saggurthi Sukumar, a passionate frontend developer with a
+            Master's in Computer Applications. I specialize in creating
+            responsive and user-friendly web applications using modern
+            technologies.
+          </p>
+          <p>
+            With a strong foundation in HTML, CSS, and JavaScript, I strive to
+            build elegant and efficient solutions that provide great user
+            experiences.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <div class="skills-content">
+        <h2 class="section-title">My Skills & Certificates</h2>
+        <div class="skills-grid">
+          <div
+            class="skill-card"
+            data-certificate="./images/HTML Sololearn.jpg"
+          >
+            <h3>HTML5</h3>
+            <p>Click to view certificate</p>
+          </div>
+          <div
+            class="skill-card"
+            data-certificate="./images/CSS Certificate.png"
+          >
+            <h3>CSS3</h3>
+            <p>Click to view certificate</p>
+          </div>
+          <div
+            class="skill-card"
+            data-certificate="./images/JavaScript Certificate.png"
+          >
+            <h3>JavaScript</h3>
+            <p>Click to view certificate</p>
+          </div>
+          <div
+            class="skill-card"
+            data-certificate="./images/Python Certificate.png"
+          >
+            <h3>Python</h3>
+            <p>Click to view certificate</p>
+          </div>
+          <div
+            class="skill-card"
+            data-certificate="./images/Database Foundations.jpg"
+          >
+            <h3>Database Foundations</h3>
+            <p>Click to view certificate</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal for Certificates -->
+    <div class="modal" id="certificateModal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <img id="certificateImage" src="" alt="Certificate" />
+      </div>
+    </div>
+
+    <section id="projects" class="projects">
+      <h2 class="section-title">My Projects</h2>
+      <div class="projects-grid">
+        <div
+          class="project-card"
+          data-project-url="./calculator/index.html"
+          data-project-title="Calculator App"
+        >
+          <div class="project-info">
+            <h3>Calculator App</h3>
+            <p>
+              A full-featured online store with shopping cart and payment
+              integration.
+            </p>
+            <div class="project-links">
+              <button class="view-project-btn">View Project</button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="project-card"
+          data-project-url="./ToDo List/index.html"
+          data-project-title="To-Do List"
+        >
+          <div class="project-info">
+            <h3>To-Do List</h3>
+            <p>A responsive task tracker with drag-and-drop functionality.</p>
+            <div class="project-links">
+              <button class="view-project-btn">View Project</button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="project-card"
+          data-project-url="./Weather App/index.html"
+          data-project-title="Weather App"
+        >
+          <div class="project-info">
+            <h3>Weather App</h3>
+            <p>A customizable portfolio website template for developers.</p>
+            <div class="project-links">
+              <button class="view-project-btn">View Project</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="project-modal" id="projectModal">
+      <div class="project-modal-content">
+        <div class="modal-header">
+          <h3 id="projectTitle">Project Title</h3>
+          <div class="modal-controls">
+            <button id="openNewTab" class="modal-btn">Open in New Tab</button>
+            <span class="close-project-modal">&times;</span>
+          </div>
+        </div>
+        <div class="loading-spinner"></div>
+        <iframe
+          id="projectIframe"
+          class="project-iframe"
+          title="Project Preview"
+        ></iframe>
+      </div>
+    </div>
+
+    <section id="contact" class="contact">
+      <div class="contact-content">
+        <h2 class="section-title">Get In Touch</h2>
+        <p>I'm always open to new opportunities and collaborations.</p>
+        <div class="contact-links">
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=saggurthisukumar11@gmail.com"
+            target="_blank"
+            >Email Me</a
+          >
+
+          <a
+            href="https://www.linkedin.com/in/saggurthi-sukumar-479070282/"
+            target="_blank"
+            >LinkedIn</a
+          >
+          <a href="https://github.com/sukumar-1985" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Saggurthi Sukumar. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
