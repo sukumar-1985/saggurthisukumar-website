@@ -32,6 +32,20 @@ body {
   background: transparent;
   color: #ffffff;
 }
+@media (max-width: 350px) {
+  .calculator {
+    width: 100%;
+  }
+
+  .calculator input {
+    width: 98%;
+  }
+
+  button {
+    width: 52px;
+    height: 52px;
+  }
+}
 
 .calculator input::placeholder {
   color: #ffffff;
