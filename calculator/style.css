@@ -32,7 +32,7 @@ body {
   background: transparent;
   color: #ffffff;
 }
-@media (max-width: 350px) {
+@media (max-width: 370px) {
   .calculator {
     width: 100%;
   }
